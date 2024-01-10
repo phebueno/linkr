@@ -13,11 +13,12 @@ export default function Comment({ data }) {
         if(data.follow === true){
             setAutho("•   following")
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return (
         <CommentContainer>
-            <img src={data.image}></img>
+            <img src={data.image} alt="user-comment"></img>
             <Description>
                 <Title>{data.username}<span>{autho}</span></Title>
                 <CommentText>{data.comment}</CommentText>

@@ -11,7 +11,7 @@ export default function HeaderWithSearch() {
     const [showLogout, setShowLogout] = useState(false);
     const [name, setName] = useState("")
     const [users, setUsers] = useState([])
-    const [following, setFollowing] = useState(false)
+    //const [following, setFollowing] = useState(false)
     const navigate = useNavigate()
     const { setToken, setUserAuthData } = useContext(AuthContext);
     const { userAuthData, token } = useContext(AuthContext)

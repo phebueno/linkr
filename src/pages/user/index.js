@@ -71,11 +71,12 @@ export default function UserPage() {
 
   useEffect(() => {
     for (let i = 0; i < followers.length; i++) {
-      if (followers[i].followUserId == id) {
+      if (followers[i].followUserId === id) {
         setFollow(true)
         return
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [followers])
 
   return (

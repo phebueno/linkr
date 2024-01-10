@@ -19,6 +19,7 @@ export default function SignIn() {
         } else {
             navigate("/")
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     function login(e) {

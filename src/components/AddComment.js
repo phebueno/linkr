@@ -27,7 +27,7 @@ export default function AddComment({ postId,showComments, postData, setPostData 
 
     return (
         <AddCommentContainer>
-            <img src={userAuthData.img} alt="user-image"></img>
+            <img src={userAuthData.img} alt="user"></img>
             <div>
                 <div>
                     <input value={comment} onChange={(e) => setComment(e.target.value)} placeholder="write a comment..."></input>
