@@ -2,7 +2,7 @@
 Um aplicativo de rede social para o compartilhamento de links. Compartilhe links, curta, e siga seus amigos!
 
 <p align="center">  
-  <img src=demo.gif?raw=true" alt="app demo" height=350/>
+  <img src=public/assets/demo.gif?raw=true" alt="app demo" height=350/>
 </p>
 
 Teste à vontade no seguinte link:  https://linkr-front-app.vercel.app
